@@ -1,0 +1,109 @@
+.price-filter-popup { 
+  background-color: #ffffff;
+  padding: 1.25rem;  /* 20px */
+  border: 1px solid #ccc;
+  border-radius: 1rem;  /* 5px */
+  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.2);  /* 10px */
+  text-align: center;
+  font-family: 'JejuMyeongjo';
+  position: relative;
+}
+
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 0.625rem 0;  /* 10px 0 */
+}
+
+.filter-title {
+  background-color: #ffffff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -0.625rem;  /* 10px */
+  padding: 0 0.3125rem;  /* 5px */
+}
+
+.line {
+  height: 1px;
+  background-color: rgb(0, 0, 0);
+  margin-top: 0.625rem;  /* 10px */
+  margin-bottom: 0.625rem;  /* 10px */
+}
+
+.close-button {
+ background-color: transparent;
+  border: none;
+  font-size: 1.25rem;  /* 20px */
+  color: #DA1467;
+  cursor: pointer;
+  position: absolute;
+  top: -0.625rem;  /* -10px */
+  right: 0;
+  padding: 0;
+}
+
+.close-button:hover {
+  background-color: transparent; /* Fondo transparente */
+  color: #000000; /* Nuevo color para el icono */
+}
+
+.price-filter-popup h2 {
+  margin-top: 0;
+  margin-bottom: 0.625rem;  /* 10px */
+  color: #DA1467;
+  font-family: 'JejuMyeongjo';
+}
+
+.price-inputs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;  /* 20px */
+}
+
+.price-inputs label {
+  width: 30%;
+  text-align: right;
+  padding-right: 0.625rem;  /* 10px */
+}
+
+.price-inputs input {
+  width: 65%;
+  padding: 0.3125rem;  /* 5px */
+  border: 1px solid #ccc;
+  border-radius: 0.1875rem;  /* 3px */
+  font-family: 'JejuMyeongjo';
+}
+
+.submit-button {
+  border-radius: 1rem;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 0.625rem 1.25rem;  /* 10px 20px */
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0e0e0ecc;
+}
+
+.filtro-button {
+  background-color: #DA1467;
+  color: white;
+  font-family: 'JejuMyeongjo';
+  height: 2.5rem; /* Ajusta este valor según necesites */
+  padding: 0.5rem 1rem; /* Ajusta el padding vertical para centrar el texto si es necesario */
+  border-radius: 1rem;  /* Ajustado el borde redondeado */
+}
+
+.filtro-button:hover {
+  background-color: hsl(336, 100%, 97%);
+}
+
+.filtro-button i { 
+  font-size: 1.125rem;  /* 18px */
+  margin-right: 0.3125rem;  /* 5px */
+}
